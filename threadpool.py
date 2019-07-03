@@ -43,6 +43,7 @@ class ThreadPool:
                         dellist.append(k)
                 else:
                     dellist.append(k)
+            time.sleep(1)
             for dl in dellist:
                 del (record[dl])
 
